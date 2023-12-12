@@ -5,6 +5,8 @@ import { Section } from '../Section/Section';
 import { Notification } from '../Notification/Notification';
 import { Container } from './Feedback.styled';
 
+//
+
 export const Feedback = () => {
   const [good, setGood] = useState(0);
   const [neutral, setNeutral] = useState(0);
